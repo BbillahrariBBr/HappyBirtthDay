@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"
+            android:id="@+id/home" />
+
+        <item
+            android:title="@string/aboutbgirl"
+            android:icon="@drawable/ic_about"
+            android:id="@+id/about" />
+
+
+        <item
+            android:title="@string/celebrty"
+            android:icon="@drawable/ic_cel"
+            android:id="@+id/clebrity" />
+
+        <item
+            android:title="@string/burak"
+            android:icon="@drawable/ic_burak"
+            android:id="@+id/burak" />
+
+        <item
+            android:title="@string/gift"
+            android:icon="@drawable/ic_gift"
+            android:id="@+id/gift" />
+
+        <!--
+
+        <item
+            android:title="@string/friendsmeory"
+            android:icon="@drawable/ic_friends"
+            android:id="@+id/friends" />
+
+        <item
+            android:title="@string/family"
+            android:icon="@drawable/ic_family"
+            android:id="@+id/family" />
+
+        <item
+            android:title="@string/previous_memory"
+            android:icon="@drawable/ic_previous"
+            android:id="@+id/previous" />
+
+        <item
+            android:title="@string/admin"
+            android:icon="@drawable/ic_admin"
+            android:id="@+id/admin" />
+
+        <item
+            android:title="@string/atlast"
+            android:icon="@drawable/ic_atlast"
+            android:id="@+id/atlast" />
+
+            -->
+
+
+    </group>
+
+</menu>

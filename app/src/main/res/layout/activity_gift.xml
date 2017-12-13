@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<com.flavienlaurent.discrollview.lib.DiscrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bakibillah.happybirtthday.GiftActivity">
+
+        <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="25dp"
+                android:textSize="72sp"
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:text="Do you love cheese?" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#007788"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_threshold="0.3" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                discrollve:discrollve_translation="fromLeft|fromBottom"
+                android:src="@drawable/slide5" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                 />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/slide5"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"
+                discrollve:discrollve_translation="fromRight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="When the cheese comes out everybody's happy pecorino red leicester"
+                android:textSize="18sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/slide4"
+                discrollve:discrollve_scaleX="true"
+                discrollve:discrollve_scaleY="true"  />
+
+        </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+    </com.flavienlaurent.discrollview.lib.DiscrollView>
+
+
+<com.flavienlaurent.discrollview.lib.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_animated_discroll_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+        android:id="@+id/discroll_view_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@android:color/white"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Scroll Down the Screen..."
+            android:textColor="@android:color/black"
+            android:textSize="68sp"
+            tools:visibility="gone" />
+
+        <View
+            android:id="@+id/animated_custom_view_color"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_fromBgColor="#3cac32"
+            discrollve:discrollve_threshold="0.3"
+            discrollve:discrollve_toBgColor="#0869a6" />
+
+        <ImageView
+            android:id="@+id/animated_imageview_images"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_launcher_round"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+        <View
+            android:id="@+id/animated_color"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#ac7b32"
+            discrollve:discrollve_toBgColor="#7b1d1d" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@mipmap/ic_bday"
+            discrollve:discrollve_translation="fromRight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Show and Hide Android Views: TextView, ImageView, CustomView, Buttons etc with animation effect."
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_burak"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_fromBgColor="#3cac32"
+            discrollve:discrollve_threshold="0.3"
+            discrollve:discrollve_toBgColor="#0869a6" />
+
+    </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+
+</com.flavienlaurent.discrollview.lib.DiscrollView>
+-->
+
+<us.egek.discrollview2.DiscrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <us.egek.discrollview2.DiscrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:padding="25dp"
+            android:textSize="52sp"
+            android:gravity="center"
+            android:text="গিফট নিতে তোমার অনেক ভালোই লাগে তাই না!!" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimaryDark"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_threshold="0.3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="কেমন হতো যদি এইটা দিয়েই  অনেক গিফট পাওয়া যেত!?"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromTop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="তাহলে শুরু হয়ে যাক গিফট বক্স খোলা"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#E57373"
+            discrollve:discrollve_toBgColor="#B71C1C" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromRight|fromBottom"
+            android:src="@drawable/gft2" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/gft3" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#7B1FA2"
+            discrollve:discrollve_toBgColor="#AB47BC" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="কেমন হতো যদি এদের একটিতে"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/oppof5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:padding="25dp"
+            android:textSize="52sp"
+            android:gravity="center"
+            android:text="আর অন্যটিতে" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/job" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Appoinment Letter থাকত"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#F48FB1"
+            discrollve:discrollve_toBgColor="#EC407A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text=" যাই হোক খুলেই দেখি কি আছে এইগুলোতে!!"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            discrollve:discrollve_fromBgColor="#8BC34A"
+            discrollve:discrollve_toBgColor="#689F38" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="এতে আছে"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/gfto1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="দোয়া ও শুভ কামনা"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/gfto2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="আর এটাতে"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/heart" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="এইটা কিন্তু আমার না"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom" />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromLeft|fromTop"
+            android:src="@drawable/emo1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:padding="25dp"
+            android:textSize="52sp"
+            android:gravity="center"
+            android:text="এবং অবশেষে আবার ও" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#D50000"
+            android:text="শুভ জন্মদিন"
+            android:textSize="43sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromTop|fromLeft" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            discrollve:discrollve_alpha="true"
+            android:layout_gravity="center"
+            discrollve:discrollve_translation="fromBottom|fromRight"
+            android:src="@drawable/emo2" />
+
+
+
+
+    </us.egek.discrollview2.DiscrollViewContent>
+</us.egek.discrollview2.DiscrollView>

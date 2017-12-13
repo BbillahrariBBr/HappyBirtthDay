@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HBD</string>
+    <string name="home">এখানে শুরু</string>
+    <string name="aboutbgirl">যাহার জন্য</string>
+    <string name="gift">অবশেষে উপহার</string>
+    <string name="celebrty">সনামধন্য ব্যক্তি</string>
+    <string name="burak">বুরাক ডেনিজ</string>
+    <string name="friendsmeory">বন্ধুদের সাথে</string>
+    <string name="family">পরিবারের সাথে</string>
+    <string name="previous_memory">পুরানো সেই দিনের কথা</string>
+    <string name="admin">ব্যর্থ চেষ্টায়</string>
+    <string name="atlast">অবশেষে</string>
+    <string name="open_drawer">Open  Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="tapscreen">(এই লেখার একটু নিচে চাপতে হবে)</string>
+    <string name="hbdrumana">Happy Birthday Rumana</string>
+    <string name="play">PLAY</string>
+
+    <string name="year">Year</string>
+    <string name="location">Location</string>
+</resources>
