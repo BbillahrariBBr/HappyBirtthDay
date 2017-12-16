@@ -100,45 +100,127 @@
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardElevation="5dp"
-            app:cardUseCompatPadding="true"
-            >
 
-            <LinearLayout
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
                 >
 
-                <TextView
-                    android:textColor="#000000"
-                    android:text="প্রিয় শব্দগুচ্ছ"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:layout_marginTop="12dp"
-                    android:textSize="20sp"
-                    android:padding="14dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:padding="2sp"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="#000000"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-                    android:textAlignment="center"
-                    android:text="HO, জানি না, আমি কি জানি"/>
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:text="জন্ম তারিখঃ(আসল)"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:textSize="20sp"
+                        android:padding="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:padding="2sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="১৪ ডিসেম্বর,১৯৯২"/>
 
 
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:text="জন্ম তারিখঃ(Certificate)"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:textSize="20sp"
+                        android:padding="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:padding="2sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="১ জানুয়ারী,১৯৯৪"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:text="প্রিয় শব্দগুচ্ছ"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:textSize="20sp"
+                        android:padding="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:padding="2sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="HO, জানি না, আমি কি জানি"/>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
